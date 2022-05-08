@@ -73,6 +73,6 @@ for key in dic:
     if key.startswith("张"):
         temp.append(key)
         #dic.pop(key) #错误不能直接删除 dictionary changed size during iteration
-for t in temp:
-    dic.pop(t)
+for t in temp: #用新列表去删除字典中的内容
+    dic.pop(t) 
 print(dic)
